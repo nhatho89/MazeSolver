@@ -1,0 +1,35 @@
+.game-window {
+  display: flex;
+  justify-content: space-around;
+}
+
+.board-item {
+  height: 15px;
+  width: 15px;
+  border: .5px solid silver;
+}
+
+.board {
+  width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  border: .5px solid black;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+}
+
+.wall {
+  background-color: red;
+
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: blue;
+}
