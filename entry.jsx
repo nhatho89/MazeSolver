@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Window = require('./javascript/components/window');
+var Window = require('./frontend/components/window');
 
 
 var Maze = React.createClass({
