@@ -10,7 +10,7 @@ const generateMaze = () => {
   for (let i = 0; i < ROWS; i++) {
     const row = [];
     for (let j = 0; j < COLS; j++) {
-      row.push(Math.random() < 0.2 ? 1 : 0); // 20% chance of wall
+      row.push(Math.random() < 0.2 ? 1 : 0); // 20% chance of wall 
     }
     maze.push(row);
   }
